@@ -150,3 +150,11 @@ button:visited {
 
 button:hover {
     background-color: #574d24;}
+
+p{
+        font-family: "Roboto";
+    }
+
+td {
+    font-family: 'Roboto', sans-serif;
+}
