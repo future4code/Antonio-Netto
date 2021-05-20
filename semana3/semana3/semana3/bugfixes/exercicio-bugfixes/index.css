@@ -111,6 +111,11 @@ td button {
     color: black;
 }
 
+img {
+    max-width:50px;
+    max-height:50px;
+}
+
 .container-do-search {
     margin-top: 20px;
     height: 100px;
@@ -131,3 +136,6 @@ td button {
     background-color: #635a3d
 }
 
+td {
+    text-align: center;
+}
