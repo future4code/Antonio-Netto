@@ -56,7 +56,7 @@ div img {
 }
 
 .icone {
-    height: 15px;
+    height: 30px;
 }
 
 
@@ -139,3 +139,10 @@ img {
 td {
     text-align: center;
 }
+
+button:visited {
+    color:white;
+}
+
+button:hover {
+    background-color: #574d24;}
