@@ -13,6 +13,7 @@ border-radius: 50px;
 width: 200px;
 padding: 15px 30px; 
 margin: 10px auto;
+background-color: red;
 
 `
 const Img1 = styled.img `
