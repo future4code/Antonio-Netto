@@ -1,0 +1,46 @@
+AULA 25 (15.6)
+
+GET = Método da requisição (poderia ser post, etc)
+
+colocamos o link que a documentação entrega para a gente no parametro
+
+o headers eu coloco se a minha requisição tiver isso, se nao tiver nao precisa colocar
+
+SCR1
+
+Podem acontecer erros então tem que sempre manter o usuario ciente do que está acontecendo
+
+sincronicidade x assincronicidade
+
+Qualquer função que tiver acontecendo embaixo vai ser executada ao mesmo tempo em que a outra está sendo executada (then fala para o código "quando voce ficar pronto, voce vai executar essa função aqui / essa funcao ta dentro do then") mas nesse meio tempo tem que avisar o usuario que o dado não chegou (o dado está vindo) /// parametro dessa funcao é response (no lugar do responde posso colocar a palavra que eu quiser)
+
+nao podemos parar a execução de tudo esperando aquele dado chegar
+
+SCR2
+
+Depois do then, colocamos um cath = ele executa uma funcao caso aconteça algum erro
+
+SCR3   
+
+Sempre que formos executar uma requisicao, temos que falar o que queremos que ele faca se der certo (then) e se der errado (get)
+
+****Para fazer a requisicao eu importo o axios / dai faco a requisicao com o get ou post ou outro método / primeiro parametro é a URL / depois ela passou os headers / daí a requisicao está feita, para executar ela dá o request.then e dentro do than ela coloca o que ela quer que ele faca se a requisicao der certo e se der errado
+
+JSON é o padrão, se eu apagasse a linha 5 o código ia considerar json igual
+
+SCR4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
