@@ -9,12 +9,13 @@ const ButtonContainer = styled.div`
 `
 
 
+
 const Botoes = (props) => {
     return (
         <ButtonContainer>
 
            <button>Dar Match</button>
-           <button onClick={() => props.changePage("NP2")}>Ver Outro Perfil</button>
+           <button>Ver Outro Perfil</button>
             
 
         </ButtonContainer>
