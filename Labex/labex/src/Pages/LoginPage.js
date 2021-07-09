@@ -1,5 +1,6 @@
 import {useState} from 'react'
 import axios from 'axios';
+import{useForm} from "./Hooks/useForm"
 
 const LoginPage = () => {
   const [email, setEmail] = useState("");
@@ -27,22 +28,36 @@ const LoginPage = () => {
     })
   } 
 
+  const { form, onChange, cleanFields } = useForm({email: "", password: "", })
+
+  const fazerLogin = (event) => {
+    event.preventDefault()
+    console.log("Formulário enviado", form);
+    cleanFields();
+  };
+
   return (
     <div>
+        <form onSubmit={fazerLogin}>
         <input
+        name={email}
         placeholder="email"
         type="email"
-        value={email}
-        onChange={onChangeEmail}
+        value={form.email}
+        onChange={onChange}
+        required
       />
 
         <input
+        name={password}
         placeholder="password"
         type="password"
-        value={password}
-        onChange={onChangePassword}
+        value={form.password}
+        onChange={onChange}
+        required
       />
       <button onClick={onSubmitLogin}>Enviar</button>
+      </form>
     </div>
   );  
   };

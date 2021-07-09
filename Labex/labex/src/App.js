@@ -34,7 +34,7 @@ function App() {
        <CreateTripPage />
        </Route>
 
-       <Route exact path={"/admin"}>
+       <Route exact path={"admin"}>
        <AdminHomePage/>
        </Route>
        

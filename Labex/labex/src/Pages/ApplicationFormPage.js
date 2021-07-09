@@ -3,7 +3,7 @@ import React from 'react'
 function ApplicationFormPage() {
   return (
     <div>
-        
+        A
          </div>
   );  
 }
