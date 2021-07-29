@@ -271,8 +271,27 @@ console.log(naoPodeUsar)
 
  console.log(consultas)
 
+
+
+
+ -----------------------------------------------
+
+ **AQUI COMEÇA A SEGUNDA LISTA DE EXERCÍCIOS QUE ME PASSARAM NA QUINTA**
+
+EX 1 - 
+
  */
 
-  
+const imprimeArea = () => {
+  const altura = Number(prompt("Qual é a altura do retângulo?"))
+  const largura = Number(prompt("Qual é a largura do retângulo?"))
+  const area = Number(altura*largura)
+  return console.log(`A área do retângulo é ${area}`)
+} 
+
+imprimeArea()
+console.log(imprimeArea())
+
+
 
   
